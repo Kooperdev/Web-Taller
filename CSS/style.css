@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+* a{
+    color: white;
+    transition: ease 0.2s;
+}
+
+* a:hover {
+    color: red;
+}
+
+#KPR {
+    width: 50%;
+    font-size: 100px;
+    font-family: 'Lobster';
+    margin-left: 100px;
+    margin-top: 50px;
+    color: rgb(185, 185, 185);
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 0.1px;
+}
+
+
+body {
+    background-image: url("../img/Sin_titulo-1.png");
+    background-repeat:repeat;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.tabla{
+    font-size: 30px;
+    position: relative;
+    float: right;
+    margin-right: 3%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    bottom: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    padding: 10px;
+}
+
+#as{
+    position: relative;
+    top: 58px;
+    width: 15%;
+    float: left;
+    height: 943px;
+    margin: 2%;
+}
+
+section{
+    float: left;
+    width: 75%;
+    height: 100%;
+    margin: 2%;
+    background-color: white;
+}
+
+#preciossec{
+    float: left;
+    width: 75%;
+    height: 170px;
+    margin: 2%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer{
+    clear: both;
+    height: 60px;
+    bottom: 1px;
+}
+
+#ttsec{
+    position: relative;
+    font-size: 37px;
+    top: 5px;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* CLASES KITS */
+
+.tb{
+    position: relative;
+    margin-top: 0.5%;
+    left: 5px;
+    height: 245.75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tm{
+    position: relative;
+    margin-top: 0.5%;
+    left: 5px;
+    height: 245.75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ta{
+    position: relative;
+    margin-top: 0.5%;
+    left: 5px;
+    height: 245.75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.te{
+    position: relative;
+    margin-top: 0.5%;
+    left: 5px;
+    height: 245.75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TITOLS KITS */
+
+#basico{
+    position:relative;
+    top: 10px;
+    left: 15px;
+}
+
+#medio{
+    position:relative;
+    top: 10px;
+    left: 15px;
+}
+
+#alto{
+    position:relative;
+    top: 10px;
+    left: 15px;
+}
+
+#extremo{
+    position:relative;
+    top: 10px;
+    left: 15px;
+}
+
+/*  PRECIOS  */
+
+
+#tituloprecios{
+    position:relative;
+    top: 10px;
+    left: 15px;
+}
+
+#infoprecios{
+    position: relative;
+    margin-top: 15px;
+    width: 40%;
+    left: 30px;
+}
+
+#info2precios{
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+/* INFORMACIO KITS */
+
+
+
+#txtb{
+    position: relative;
+    margin-top: 15px;
+    width: 40%;
+    left: 30px;
+}
+
+#txtm{
+    position: relative;
+    margin-top: 15px;
+    width: 40%;
+    left: 30px;
+}
+
+#txta{
+    position: relative;
+    margin-top: 15px;
+    width: 40%;
+    left: 30px;
+}
+
+#txte{
+    position: relative;
+    margin-top: 15px;
+    width: 40%;
+    left: 30px;
+}
+
+/* CONTINGUT KITS */
+
+#cb{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#contbasic{
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+#fotob{
+    position: absolute;
+    right: 28%;
+    width: 17%;
+    top: 0%;
+}
+
+#cm{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#contmedio{
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+#fotom{
+    position: absolute;
+    right: 28%;
+    width: 20%;
+    top: 0%;
+}
+
+#fotom2{
+    position: absolute;
+    right: 10%;
+    width: 20%;
+    top: 20%;
+}
+
+#ca{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#contalto{
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+#fotoa{
+    position: absolute;
+    right: 36%;
+    width: 20%;
+    top: 0%;
+}
+
+#fotoa2{
+    position: absolute;
+    right: 10%;
+    width: 20%;
+    top: 20%;
+}
+
+#ce{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#contextremo{
+    position: relative;
+    left: 55px;
+    top: 10px;
+}
+
+#fotoe{
+    position: absolute;
+    right: 38%;
+    width: 20%;
+    top: 12%;
+}
+
+#fotoe2{
+    position: absolute;
+    right: 22%;
+    width: 16%;
+    top: 7%;
+}
+
+#fotoe3{
+    position: absolute;
+    right: 7%;
+    width: 15%;
+    top: 10%;
+}
+
+/*  WEBS AMIGUES  */
+
+.wa{
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    height: 16%;
+}
+
+ol li a{
+    color: rgb(0, 0, 0);
+    padding-left: 7%;
+}
+
+ol li a:hover{
+    color: red;
+}
+
+#twa{
+padding: 3%;
+}
+
+/*  INFORMACION DE CONTACTO  */
+
+.contacto{
+    background-color: white;
+    margin-top: 5%;
+    height: 170px;
+}
+
+#ttcontacto{
+    padding: 3%;
+}
+
+#infocontacto{
+    padding-left: 7%;
+}
+
+
+
+/*  JS  */
+
+.slider-dots li{
+    display:inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.slider-dots li button{
+    display: none;
+}
+
+.slider-dots li.slick-active{
+    background-color: red;
+}
+
+.slider{
+    width: 95%;
+}
+
+.slider-dots{
+    position: relative;
+    left: 47.5%;
+    width: 9%;
+
+}
+
+.slick-prev{
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    background-color: transparent;
+    border: solid transparent;
+    font-size: 30px;
+}
+
+.slick-next{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    background-color: transparent;
+    border: solid transparent;
+    font-size: 30px;
+}  
+
+.slick-prev{
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.slick-prev:hover {
+    color: red;
+}
+
+.slick-next{
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.slick-next:hover {
+    color: red;
+}
